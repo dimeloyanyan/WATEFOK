@@ -1,4 +1,3 @@
-const os = require('os');
 const fs = require('fs');
 
 fs.writeFile('./text.txt','linea 1',function (err) {
