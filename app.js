@@ -1,5 +1,7 @@
 const http = require('http');
 const colors = require('colors');
+const port = 4000;
+
 
 
 const HandleServer = function (req, res){
@@ -10,6 +12,6 @@ const HandleServer = function (req, res){
 
 const server = http.createServer(HandleServer);
 
-server.listen(3000, function(){
-    console.log("Listening on port: 3000".yellow);
+server.listen(port, function(){
+    console.log("Listening on port: 4000".yellow);
 });
